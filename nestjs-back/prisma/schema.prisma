@@ -10,7 +10,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Asset{
+model Asset {
   id        String   @id @map("_id")
   symbol    String
   price     Float
